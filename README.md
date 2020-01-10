@@ -1,5 +1,5 @@
 # JsEpicFunctions
-JavaScript epic functions to save time while programming
+JavaScript Epic Functions to save time while programming
 
 Tired of writing :
 ```javascript
@@ -9,10 +9,10 @@ document.getElementsByClassName("className");
 ```
  Every time?
  
- Use querySelector() and querySelectorAll() functions by targetting elements as you target them using CSS (or jQuery) :
+ Use querySelector() and querySelectorAll() functions by targeting elements as you target them using CSS (or jQuery) :
  ```javascript
-document.document.querySelector("singleSelector");      //single element
-document.document.querySelectorAll("multipleSelector"); //multiple elements
+document.querySelector("singleSelector");      //single element
+document.querySelectorAll("multipleSelector"); //multiple elements
 ```
 Want more comfort ? Declare these functions :
 ```javascript
