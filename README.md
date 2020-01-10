@@ -1,5 +1,6 @@
 # JsEpicFunctions
 JavaScript epic functions to save time while programming
+
 Tired of writing
 ```javascript
 document.getElementById("id");
@@ -14,6 +15,7 @@ document.document.querySelector("selector"); //single element
 document.document.querySelectorAll("selector"); /:multiple elements
 ```
 Want more comfort ?
+
 Declare these functions
 ```javascript
 function _(e){
@@ -23,7 +25,7 @@ function _a(e){
   return document.document.querySelectorAll(e);
 }
 ```
-Becauser it's better to write
+Becauser it's better to use
 ```javascript
 let selector = _("selector");
 //or
