@@ -1,7 +1,7 @@
 # JsEpicFunctions
 JavaScript epic functions to save time while programming
 
-Tired of writing
+Tired of writing :
 ```javascript
 document.getElementById("id");
 document.getElementsByTagName("tag");
@@ -9,32 +9,35 @@ document.getElementsByClassName("className");
 ```
  Every time?
  
- Use querySelector and querySelectorAll methods by targetting elements as you target them using CSS (or as in jQuery)
+ Use querySelector() and querySelectorAll() functions by targetting elements as you target them using CSS (or jQuery) :
  ```javascript
-document.document.querySelector("selector"); //single element
-document.document.querySelectorAll("selector"); //multiple elements
+document.document.querySelector("singleSelector");      //single element
+document.document.querySelectorAll("multipleSelector"); //multiple elements
 ```
-Want more comfort ?
-
-Declare these functions
+Want more comfort ? Declare these functions :
 ```javascript
+/**
+ * Epic Functions Down Below !
+ */
 function _(e){
-  return document.document.querySelector(e);
+  return document.querySelector(e);
 }
 function _a(e){
-  return document.document.querySelectorAll(e);
+  return document.querySelectorAll(e);
 }
 ```
-Becauser it's better to use
+Becauser it's better to use :
 ```javascript
-let selector = _("selector");
+let selector = _("singleSelector");
 //or
-let selectors = _a("selectors");
+let selectors = _a("multipleSelector");
 ```
-Than
+Instead of :
 ```javascript
-let selector = document.document.querySelector("selector");
+let selector = document.querySelector("singleSelector");
 //or
-let selectors = document.document.querySelectorAll("selectors");
+let selectors = document.querySelectorAll("multipleSelector");
 ```
+> By using these Epic Functions, you avoid writing - up to - 23 additional characters in each usage :wink:
+
 :rocket:
