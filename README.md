@@ -12,7 +12,7 @@ document.getElementsByClassName("className");
  Use querySelector and querySelectorAll methods by targetting elements as you target them using CSS (or as in jQuery)
  ```javascript
 document.document.querySelector("selector"); //single element
-document.document.querySelectorAll("selector"); /:multiple elements
+document.document.querySelectorAll("selector"); //multiple elements
 ```
 Want more comfort ?
 
@@ -37,3 +37,4 @@ let selector = document.document.querySelector("selector");
 //or
 let selectors = document.document.querySelectorAll("selectors");
 ```
+:rocket:
