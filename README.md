@@ -1,5 +1,5 @@
 # JsEpicFunctions
-JavaScript Epic Functions to save time while programming
+JavaScript Epic Functions to save time while programming 🏃‍💻
 
 Tired of writing :
 ```javascript
